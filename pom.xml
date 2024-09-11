@@ -10,22 +10,10 @@
     </parent>
     <groupId>nl.oudhoff</groupId>
     <artifactId>books-backend</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>boeken-backend</name>
-    <description>boeken-backend</description>
-    <url/>
-    <licenses>
-        <license/>
-    </licenses>
-    <developers>
-        <developer/>
-    </developers>
-    <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
-    </scm>
+    <version>0.0.1</version>
+    <name>books-backend</name>
+    <description>books-backend</description>
+
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -57,6 +45,12 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
