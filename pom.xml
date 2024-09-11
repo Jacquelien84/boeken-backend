@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>nl.oudhoff</groupId>
-    <artifactId>boeken-backend</artifactId>
+    <artifactId>books-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>boeken-backend</name>
     <description>boeken-backend</description>
